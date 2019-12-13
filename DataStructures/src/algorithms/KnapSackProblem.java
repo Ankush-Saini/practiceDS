@@ -35,7 +35,12 @@ public class KnapSackProblem {
 		Map<Index,Integer> computedMap=new HashMap<Index,Integer>();
 		return topDownRecursiveUtil(values, weights, W, values.length, 0, computedMap);
 	}
-	
+	/*Approach to knapsack problem
+	1. For currentItem check if weight is less than remaining weight.
+	2. If it is more, then remove that element and check next element whether after using it or without using what
+	will be the maximum of these two.
+	3. Add the remaining item and remaining weight to the map with the maximum value at that point
+	*/
 	public static int topDownRecursiveUtil(int values[],int weight[],int remainingWt,int totalItem,int currentItem,Map<Index,Integer> map) {
 		if(currentItem>=totalItem || remainingWt<=0)
 			return 0;
