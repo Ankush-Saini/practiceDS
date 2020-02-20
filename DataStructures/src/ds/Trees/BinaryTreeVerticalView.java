@@ -1,4 +1,4 @@
-package com.dataStructures.trees;
+package com.dataStructures.trees.changes;
 
 import java.util.ArrayList;
 import java.util.Collection;
