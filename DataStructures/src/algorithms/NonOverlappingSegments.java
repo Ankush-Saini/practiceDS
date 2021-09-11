@@ -1,6 +1,6 @@
 // you can also use imports, for example:
 import java.util.*;
-/*
+/*Zemoso Technologies
 For ex, given nums = [10, 1, 3, 1, 2, 2, 1, 0, 4], there are three non-overlapping segments, each whose sum is equal to 4: (1, 3), (2, 2), (0, 4).
 Expected output = 3
 */
