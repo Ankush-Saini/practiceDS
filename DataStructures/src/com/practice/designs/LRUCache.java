@@ -9,6 +9,8 @@ class LRUCacheImpl<K, V> {
     int cacheSize;
 
     public LRUCacheImpl(int cacheSize) {
+    	this.order= new LinkedList<>();
+    	data=new HashMap<>();
         this.cacheSize = cacheSize;
     }
 
