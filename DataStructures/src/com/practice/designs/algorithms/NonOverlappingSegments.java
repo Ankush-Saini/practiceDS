@@ -1,3 +1,4 @@
+package com.practice.designs.algorithms;
 // you can also use imports, for example:
 
 import java.util.*;

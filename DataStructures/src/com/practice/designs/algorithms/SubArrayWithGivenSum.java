@@ -1,4 +1,4 @@
-package com.general;
+package com.practice.designs.algorithms;
 
 import java.util.ArrayList;
 

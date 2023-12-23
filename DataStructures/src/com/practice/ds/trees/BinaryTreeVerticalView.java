@@ -1,4 +1,4 @@
-package com.dataStructures.trees;
+package com.practice.ds.trees;
 
 import java.util.ArrayList;
 import java.util.Collection;

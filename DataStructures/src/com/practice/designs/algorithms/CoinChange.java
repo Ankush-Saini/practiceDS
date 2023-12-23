@@ -1,3 +1,4 @@
+package com.practice.designs.algorithms;
 /*Time Limit Exceeded Solution*/
 class Solution {
     int min;

@@ -1,4 +1,4 @@
-package com.dataStructures.trees;
+package com.practice.ds.trees;
 
 class Node1 {
     int data;

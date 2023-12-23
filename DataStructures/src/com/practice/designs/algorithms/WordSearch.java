@@ -1,3 +1,4 @@
+package com.practice.designs.algorithms;
 class WordSearch {
     public boolean exist(char[][] board, String word) {
         if (board.length == 0 || word.length() == 0)

@@ -1,4 +1,4 @@
-package algorithms;
+package com.practice.designs.algorithms;
 
 import java.util.Map;
 import java.util.HashMap;
